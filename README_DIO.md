@@ -10,8 +10,8 @@ frontend/
 ├── cypress/
 │   ├── e2e/
 │   │   ├── web/
-│   │   │   ├── api.cy.js            # Teste de login via UI e feed de artigos
-│   │   │   └── login.cy.js          # Teste de login via UI e feed de artigos
+│   │   │   ├── api.cy.js            # Testes de artigos** (`articles.cy.js`): valida criação, edição, exclusão, listagem e favoritação de artigos.   
+│   │   │   └── login.cy.js          # Testes de login** (`login.cy.js`): verifica login com dados corretos (200) e incorretos (401).  
 │   │   └── api/
 │   │       ├── login.cy.js          # Testes de API para login 200/401
 │   │       └── articles.cy.js       # Testes de API para artigos (listar, criar, atualizar, excluir)
@@ -115,3 +115,4 @@ npx cypress open
 * Uso de fixtures para garantir consistência e reprodutibilidade dos testes.
 
 * Estrutura de pastas limpa, pronta para entrega na DIO e visualização de recrutadores.
+
