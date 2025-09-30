@@ -1,0 +1,11 @@
+{
+  "validUser": {
+    "email": "usuario@example.com",
+    "password": "senha123",
+    "token": "FAKE_TOKEN_123"
+  },
+  "invalidUser": {
+    "email": "invalido@example.com",
+    "password": "senhaerrada"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "articles": [
+    { "title": "Artigo 1", "description": "Primeiro artigo de teste", "body": "Conteúdo fake" },
+    { "title": "Artigo 2", "description": "Segundo artigo de teste", "body": "Outro conteúdo fake" }
+  ]
+}
